@@ -1,0 +1,1 @@
+# Project: QTRM64-SoC\n\n## Overview\nStrategic RISC-V SoC project for VSI.\n\n## Stack\n- Target: [[docs/stack|RISC-V Rocket]]\n- OS: [[docs/stack|Zephyr OS]]\n\n## Activity\n![[Dashboard#📊 Activity by Project]]
