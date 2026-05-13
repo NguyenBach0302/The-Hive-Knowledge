@@ -51,6 +51,11 @@ index 0000000..139ed5f
 +            print("\nDanh sách công việc:")
 +            for i, t in enumerate(tasks, 1):
 +                print(f"{i}. {t}")
++            input("\nNhấn Enter để tiếp tục...")
+        elif choice == '4':
++            print("\nDanh sách công việc:")
++            for i, t in enumerate(tasks, 1):
++                print(f"{i}. {t}")
 +        elif choice == '3':
 +            break
 +        else:
