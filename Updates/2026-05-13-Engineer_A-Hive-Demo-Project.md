@@ -3,77 +3,88 @@ type: bug-note
 author: "Engineer_A"
 date: 2026-05-13
 project: "Hive-Demo-Project"
-related_commits: ["tmp_hash_-1702468"]
+related_commits: ["tmp_hash_16560701"]
 status: canonical
 ---
 
 # [DRAFT] Update: Hive-Demo-Project
 
 ## 1. Symptom
-Unnecessary comment confused static analysis tools
+<What was observed? Generated from: Initial project setup for Hive Demo Project with basic CLI task manager application in Python, unit test template, project README, and requirements file.>
 
 ## 2. The Change (Diff)
 ```diff
-diff --git a/draft-2026-05-13-Engineer_A-Hive-Demo-Project.md b/draft-2026-05-13-Engineer_A-Hive-Demo-Project.md
+diff --git a/README.md b/README.md
 new file mode 100644
-index 0000000..d4a612b
+index 0000000..4bf2ebb
 --- /dev/null
-+++ b/draft-2026-05-13-Engineer_A-Hive-Demo-Project.md
-@@ -0,0 +1,37 @@
-+---
-+type: bug-note
-+author: "Engineer_A"
-+date: 2026-05-13
-+project: "Hive-Demo-Project"
-+related_commits: ["tmp_hash_35532544"]
-+status: canonical
-+---
++++ b/README.md
+@@ -0,0 +1,8 @@
++# Hive Demo Project
 +
-+# [DRAFT] Update: Hive-Demo-Project
++Dự án nhỏ dùng để test các tính năng của Hive.
 +
-+## 1. Symptom
-+Unnecessary inline comment in the main loop was flagged by static analysis tools as non-functional documentation, causing false positives in coverage metrics.
-+
-+## 2. The Change (Diff)
-+```diff
-+diff --git a/main.c b/main.c
-+index c338180..f62c4cf 100644
-+--- a/main.c
-++++ b/main.c
-+@@ -72,7 +72,7 @@ int main(void) {
-+     while (1) {
-+         // Simple Echo Logic:
-+         // Wait for a character, then send it back wrapped in brackets.
-+-        // This demonstrates basic UART communication and can be tested with a terminal emulator.
-++        
-+         char received = UART_ReceiveChar();
-+         
-+         UART_SendChar('[');
-+
++## Cách chạy
++```bash
++python app.py
 +```
+diff --git a/app.py b/app.py
+new file mode 100644
+index 0000000..139ed5f
+--- /dev/null
++++ b/app.py
+@@ -0,0 +1,24 @@
++def main():
++    print("Chào mừng đến với Hive Demo Project!")
++    tasks = []
++    while True:
++        print("\n1. Thêm công việc")
++        print("2. Xem danh sách")
++        print("3. Thoát")
++        choice = input("Chọn (1-3): ")
++        
++        if choice == '1':
++            task = input("Nhập công việc: ")
++            tasks.append(task)
++            print("Đã thêm!")
++        elif choice == '2':
++            print("\nDanh sách công việc:")
++            for i, t in enumerate(tasks, 1):
++                print(f"{i}. {t}")
++        elif choice == '3':
++            break
++        else:
++            print("Lựa chọn không hợp lệ.")
 +
-+## 3. Root Cause
-+The comment in main.c, 'This demonstrates basic UART communication and can be tested with a terminal emulator.', was flagged by static analysis tools as unnecessary documentation within the main loop. It provided no functional insight for developers familiar with UART echo patterns and increased code clutter, potentially causing false positives in code review or coverage tools.
++if __name__ == "__main__":
++    main()
+diff --git a/requirements.txt b/requirements.txt
+new file mode 100644
+index 0000000..3bf2f0b
+--- /dev/null
++++ b/requirements.txt
+@@ -0,0 +1 @@
++# No external dependencies yet
+diff --git a/tests/test_app.py b/tests/test_app.py
+new file mode 100644
+index 0000000..f12b374
+--- /dev/null
++++ b/tests/test_app.py
+@@ -0,0 +1,9 @@
++import unittest
++from app import main
 +
-+## 4. Fix
-+Remove a comment line from the main loop in main.c
-diff --git a/main.c b/main.c
-index f62c4cf..86a2f85 100644
---- a/main.c
-+++ b/main.c
-@@ -71,7 +71,6 @@ int main(void) {
- 
-     while (1) {
-         // Simple Echo Logic:
--        // Wait for a character, then send it back wrapped in brackets.
-         
-         char received = UART_ReceiveChar();
-         
++class TestApp(unittest.TestCase):
++    def test_placeholder(self):
++        self.assertTrue(True)
++
++if __name__ == '__main__':
++    unittest.main()
 
 ```
 
 ## 3. Root Cause
-delete comment to clean code
+Initial scaffolding of the Hive Demo Project to provide a baseline CLI task manager application for testing Hive features. No specific bug fix; this is a new project setup.
 
 ## 4. Fix
-Removed an unnecessary comment line from the main loop in main.c to clean up code.
+Initial project setup for Hive Demo Project with basic CLI task manager application in Python, unit test template, project README, and requirements file.
