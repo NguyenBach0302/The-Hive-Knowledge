@@ -10,7 +10,7 @@ status: canonical
 # Update: Hive-Demo-Project
 
 ## 0. Timeline
-- **Next Update:** None
+- **Next Update:** [[Updates/2026-05-13-161915-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
 - **Previous Update:** [[Updates/2026-05-13-151243-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
 
 ## 1. Symptom
