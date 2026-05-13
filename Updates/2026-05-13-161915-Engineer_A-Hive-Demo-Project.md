@@ -82,5 +82,5 @@ Removed outdated knowledge note to avoid duplicate documentation. Changed greeti
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
 
-- **Next Update:** None
+- **Next Update:** [[Updates/2026-05-13-170929-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
 - **Previous Update:** [[Updates/2026-05-13-151623-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
