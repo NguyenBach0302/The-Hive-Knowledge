@@ -9,6 +9,10 @@ status: canonical
 
 # [DRAFT] Update: Hive-Demo-Project
 
+## 0. Timeline
+- **Next Update:** [[Updates/2026-05-13-151243-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
+- **Previous Update:** None
+
 ## 1. Symptom
 <What was observed? Generated from: Fixed a typo in menu option 1, changing 'Thêm công việc' to 'Thêm công việc vào'.>
 
@@ -39,3 +43,4 @@ Fixed a typo in menu option 1, changing 'Thêm công việc' to 'Thêm công vi�
 ## 5. Connections
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
+- **Pre_version:** [Projects/Updates/2026-05-13-145453-Engineer_A-Hive-Demo-Project]
