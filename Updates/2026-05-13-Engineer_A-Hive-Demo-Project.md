@@ -1,5 +1,5 @@
 ---
-type: bug-note
+feature-addition or task
 author: "Engineer_A"
 date: 2026-05-13
 project: "Hive-Demo-Project"
@@ -10,7 +10,7 @@ status: canonical
 # [DRAFT] Update: Hive-Demo-Project
 
 ## 1. Symptom
-<What was observed? Generated from: Initial project setup for Hive Demo Project with basic CLI task manager application in Python, unit test template, project README, and requirements file.>
+A new project scaffold was created to establish a minimal CLI task manager in Python, along with supporting files (README, requirements, unit test template) for testing Hive features. The symptom is the absence of any existing project structure.
 
 ## 2. The Change (Diff)
 ```diff
@@ -84,7 +84,7 @@ index 0000000..f12b374
 ```
 
 ## 3. Root Cause
-Initial scaffolding of the Hive Demo Project to provide a baseline CLI task manager application for testing Hive features. No specific bug fix; this is a new project setup.
+No root cause applicable as this is a greenfield project setup; the change establishes a baseline codebase for feature development and integration testing.
 
 ## 4. Fix
-Initial project setup for Hive Demo Project with basic CLI task manager application in Python, unit test template, project README, and requirements file.
+Implemented initial project files including app.py (CLI task manager with add/list/exit functions), a placeholder test in tests/test_app.py, a basic README in Vietnamese, and an empty requirements.txt.
