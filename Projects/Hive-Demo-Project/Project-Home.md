@@ -8,3 +8,6 @@
 
 ### Branch: feature-B
 - [[Updates/Hive-Demo-Project/feature-B/2026-05-14-094704-Engineer_A-Hive-Demo-Project|2026-05-14 Update]]
+
+### Branch: Engineer_A_fix-sensor-bug
+- [[Updates/Hive-Demo-Project/Engineer_A_fix-sensor-bug/2026-05-14-094954-Engineer_A-Hive-Demo-Project|2026-05-14 Update]]
