@@ -3,8 +3,8 @@ type: bug-note
 author: "Engineer_A"
 date: 2026-05-14
 project: "Hive-Demo-Project"
-branch: "main-test"
-related_commits: ["hash_1778726811"]
+branch: "feature-A"
+related_commits: ["hash_1778726817"]
 status: canonical
 ---
 
@@ -12,26 +12,26 @@ status: canonical
 
 ## 1. Context & Branch
 - **Engineer:** Engineer_A
-- **Branch:** `main-test`
+- **Branch:** `feature-A`
 - **Project:** Hive-Demo-Project
 
 ## 2. Symptom
-<What was observed? Generated from: Initial commit on main-test branch, no specific code changes detected.>
+<What was observed? Generated from: This is a placeholder diff; no actual code changes are made.>
 
 ## 3. The Change (Diff)
 ```diff
-Initial change on main-test
+Change on feature-A
 ```
 
 ## 4. Root Cause
 This is a detailed explanation for testing hierarchy.
 
 ## 5. Fix
-Initial commit on main-test branch, no specific code changes detected.
+This is a placeholder diff; no actual code changes are made.
 
 ## 6. Connections
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
 
-- **Next Update:** [[Updates/Hive-Demo-Project/feature-A/2026-05-14-094659-Engineer_A-Hive-Demo-Project|2026-05-14 Update (feature-A)]]
-- **Previous Update:** None
+- **Next Update:** None
+- **Previous Update:** [[Updates/Hive-Demo-Project/main-test/2026-05-14-094653-Engineer_A-Hive-Demo-Project|2026-05-14 Update (main-test)]]
