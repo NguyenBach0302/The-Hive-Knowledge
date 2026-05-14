@@ -33,5 +33,5 @@ This is a placeholder diff; no actual code changes are made.
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
 
-- **Next Update:** None
+- **Next Update:** [[Updates/Hive-Demo-Project/feature-B/2026-05-14-094704-Engineer_A-Hive-Demo-Project|2026-05-14 Update (feature-B)]]
 - **Previous Update:** [[Updates/Hive-Demo-Project/main-test/2026-05-14-094653-Engineer_A-Hive-Demo-Project|2026-05-14 Update (main-test)]]
