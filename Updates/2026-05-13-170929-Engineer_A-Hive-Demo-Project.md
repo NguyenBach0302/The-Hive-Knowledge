@@ -45,5 +45,5 @@ Replaced Vietnamese welcome messages with a placeholder message in the main func
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
 
-- **Next Update:** None
+- **Next Update:** [[Updates/2026-05-14-092208-Engineer_A-Hive-Demo-Project|2026-05-14 Update]]
 - **Previous Update:** [[Updates/2026-05-13-161915-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
