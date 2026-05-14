@@ -45,5 +45,5 @@ Add debug print statement for engineer B's branch identifier.
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
 
-- **Next Update:** None
-- **Previous Update:** [[Updates/Hive-Demo-Project/feature-B/2026-05-14-094704-Engineer_A-Hive-Demo-Project|2026-05-14 Update (feature-B)]]
+- **Next Update:** [[Updates/Hive-Demo-Project/Engineer_A_fix-sensor-bug/2026-05-14-095459-Engineer_A-Hive-Demo-Project|2026-05-14 Update (Engineer_A_fix-sensor-bug)]]
+- **Previous Update:** None
