@@ -45,4 +45,4 @@ Updated greeting message in main function from 'Hive Demo Project' to 'Hive Demo
 - **Author:** [[people/bachnv32]]
 
 - **Next Update:** None
-- **Previous Update:** None
+- **Previous Update:** [[bachnv32_bachnv32/2026-05-14-160542-bachnv32-Hive-Demo-Project|2026-05-14 Update (bachnv32_bachnv32)]]
