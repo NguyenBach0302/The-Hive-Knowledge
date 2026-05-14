@@ -46,5 +46,5 @@ Fix typo in print statement: changed 'this is engineerA branch' to 'this is engi
 - **Project Home:** [[Projects/Hive-Demo-Project/Project-Home]]
 - **Author:** [[people/Engineer_A]]
 
-- **Next Update:** None
+- **Next Update:** [[Updates/2026-05-14-094026-Engineer_A-Hive-Demo-Project|2026-05-14 Update]]
 - **Previous Update:** [[Updates/2026-05-13-170929-Engineer_A-Hive-Demo-Project|2026-05-13 Update]]
